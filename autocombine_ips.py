@@ -132,4 +132,6 @@ with Path(argv[2]).open('w', encoding='utf-8') as fw_writer:
     fw_writer.writelines(fw_lines_part1)
     fw_writer.writelines(fw_lines_part2)
     fw_writer.writelines(fw_lines_part3)
-   
+
+with Path(argv[3]).open('w', encoding='utf-8') as ip_writer:
+    ip_writer.writelines(ip_lines)
